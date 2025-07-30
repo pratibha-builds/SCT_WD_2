@@ -45,18 +45,17 @@ This stopwatch allows users to measure time with precision and record multiple l
 (iv)-Scrollable lap list for performance history
 
 # Project Structure
-📁 stopwatch-project/
-├── index.html
-├── style.css
-├── script.js
-├── Readme.md
-└── assets/
-    └── preview.png   # or preview.gif/jpg
+     📁 stopwatch-project/
+      ├── index.html
+      ├── style.css
+      ├── script.js
+      ├── Readme.md
+      └── assets/
+        └── preview.png   
 
 
 # Preview
 ![Stopwatch Preview](assets/Preview.png)
-Note-> Press Ctrl + click on the above link to view the preview of UI.
 
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
