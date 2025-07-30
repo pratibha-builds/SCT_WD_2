@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="stopwatch-container">
+        <h1>Complete Stopwatch</h1>
+        <div class="display">00:00:00.00</div>
+        
+        <div class="controls">
+            <button id="startBtn" class="btn start">
+                <i class="fas fa-play"></i> Start
+            </button>
+            <button id="pauseBtn" class="btn pause" disabled>
+                <i class="fas fa-pause"></i> Pause
+            </button>
+            <button id="lapBtn" class="btn lap" disabled>
+                <i class="fas fa-flag"></i> Lap
+            </button>
+            <button id="resetBtn" class="btn reset" disabled>
+                <i class="fas fa-redo"></i> Reset
+            </button>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-box">
+                <span class="stat-value" id="lapCount">0</span>
+                <span class="stat-label">Laps</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-value" id="currentLapTime">00:00:00.00</span>
+                <span class="stat-label">Current Lap</span>
+            </div>
+        </div>
+        
+        <div class="laps-container">
+            <h2><i class="fas fa-history"></i> Lap History</h2>
+            <div id="lapsList" class="laps-list"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
